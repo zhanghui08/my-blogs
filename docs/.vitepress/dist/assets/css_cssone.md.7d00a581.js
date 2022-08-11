@@ -1,1 +1,0 @@
-import{_ as e,c as t,o as s}from"./app.ab56e313.js";const f='{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"css/cssone.md"}',a={};function o(r,c,n,_,p,i){return s(),t("div")}var l=e(a,[["render",o]]);export{f as __pageData,l as default};
