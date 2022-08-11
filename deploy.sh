@@ -18,11 +18,7 @@ git commit -m 'deploy'
 # git branch -M main
 
 # 如果发布到 https://<USERNAME>.github.io
-# git push -f git@github.com:<USERNAME>/<USERNAME>.github.io.git master
-
-# 如果发布到 https://<USERNAME>.github.io/<REPO>
-
-# git push -f git@github.com:zhanghui08/my-blogs.git main:gh-pages
-git push -f https://github.com/zhanghui08/my-blogs.git main:gh-pages
+git remote add origin git@github.com:zhanghui08/my-blogs.git 
+git push -f -u origin gh-pages 
 
 cd -
