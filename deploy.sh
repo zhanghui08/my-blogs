@@ -15,7 +15,7 @@ cd docs/.vitepress/dist
 git init
 git add -A
 git commit -m 'deploy'
-# git branch -M main
+# git branch -M gh-pages 
 
 # 如果发布到 https://<USERNAME>.github.io
 git remote add origin git@github.com:zhanghui08/my-blogs.git 
