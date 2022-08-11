@@ -1,1 +1,0 @@
-import{_ as e,c as t,o as a,a as o}from"./app.ab56e313.js";const m='{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"wxwatch/index.md"}',s={},n=o("p",null,"'# \u5FAE\u4FE1\u5C0F\u7A0B\u5E8F'",-1),r=[n];function c(_,d,i,p,l,f){return a(),t("div",null,r)}var u=e(s,[["render",c]]);export{m as __pageData,u as default};
