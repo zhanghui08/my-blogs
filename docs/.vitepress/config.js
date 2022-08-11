@@ -2,6 +2,7 @@
 module.exports = {
   title: "Mr. Zhang's blog", // 网站标题
   description: "总结归纳学习中的知识", //网站描述
+  dest:"./dist",
   base: "/my-blogs/", //  部署时的路径 默认 /  可以使用二级地址 /base/
   lang: 'zh-CN', //语言
   // 网页头部配置，引入需要图标，css，js
