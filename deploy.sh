@@ -20,5 +20,6 @@ git commit -m 'deploy'
 # git push -f https://github.com/qddidi/qddidi.github.io.git master
 
 # 如果是部署到 https://<USERNAME>.github.io/<REPO>
-git push -f git@github.com:zhanghui08/my-blogs.git main:gh-pages
+# git push -f git@github.com:zhanghui08/my-blogs.git gh-pages
+git push origin main:gh-pages
 
