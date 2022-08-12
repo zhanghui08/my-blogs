@@ -1,19 +1,17 @@
 {
-  "name": "yihui-blog",
+  "name": "kittydocs",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "vitepress dev docs --open",
+    "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
-    "serve": "vitepress serve docs",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "deploy": "sh deploy.sh"
+    "docs:serve": "vitepress serve docs"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "devDependencies": {
-    "vitepress": "^0.22.3"
+  "dependencies": {
+    "vitepress": "1.0.0-alpha.4"
   }
 }

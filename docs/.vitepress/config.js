@@ -1,60 +1,64 @@
-// vitepress/config.js
-module.exports = {
-  title: "Mr. Zhang's blog", // 网站标题
-  description: "总结归纳学习中的知识", //网站描述
-  dest:"./dist",
-  base: "/my-blogs/", //  部署时的路径 默认 /  可以使用二级地址 /base/
-  lang: 'zh-CN', //语言
-  // 网页头部配置，引入需要图标，css，js
-  head: [
-    // 改变title的图标
-    [
-      "link",
+export default {
+  title: "kittyui", //站点标题
+  description: "一个vue3组件库", //mate标签description，多用于搜索引擎抓取摘要
+  themeConfig: {
+    siteTitle: "Kitty",
+    logo: "/logo.png",
+    socialLinks: [
+      { icon: "github", link: "https://gitee.com/geeksdidi" },
+      { icon: "twitter", link: "..." },
+      // You can also add custom icons by passing SVG as string:
       {
-        rel: "icon",
-        href: "/admin.png", //图片放在public文件夹下
+        icon: {
+          svg: '<svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Dribbble</title><path d="M12...6.38z"/></svg>',
+        },
+        link: "...",
       },
     ],
-  ],
-  // 主题配置
-  themeConfig: {
-    subSidebar: 'auto',
-    // repo: 'Bluestar123/day-blog/tree/master',
-    repo: "vuejs/vitepress", // 你的 github 仓库地址，网页的右上角会跳转
-    //   头部导航
     nav: [
-      { text: "首页", link: "/" },
+      { text: "博客", link: "/articles/组件库环境搭建" },
+      { text: "GuideTest", link: "/guide/test" },
+      { text: "gitee", link: "https://gitee.com/geeksdidi" },
       {
-        text: "Html/Css",
+        text: "Drop Menu",
         items: [
-          { text: "Html5", link: "/html/" },
-          { text: "Css3", link: "/css/" },
+          {
+            items: [
+              { text: "Item A1", link: "/item-A1" },
+              { text: "Item A2", link: "/item-A2" },
+            ],
+          },
+          {
+            items: [
+              { text: "Item B1", link: "/item-B1" },
+              { text: "Item B2", link: "/item-B2" },
+            ],
+          },
         ],
       },
-      // { text: 'Css', link: '/css/' },
-      { text: "JavaScript", link: "/javascript/" },
-      { text: "Vue", link: "/vue/" },
-      { text: "React", link: "/react/" },
-      { text: "微信小程序", link: "/wxwatch/" },
-      { text: "部署", link: "/deployment/" },
     ],
-    //   侧边导航
     sidebar: {
-      html: [
+      "/articles/": [
         {
-          text: "Html5",
-          children: [
-            { text: "概况", link: "/html/" },
-            { text: "入门", link: "/html/htmlone" },
+          text: "组件库源码实现",
+          collapsible: true,
+          items: [
+            {
+              text: "组件库环境搭建",
+              link: "/articles/组件库环境搭建",
+            },
+            { text: "gulp的使用", link: "/articles/gulp的使用" },
           ],
         },
-      ],
-      css: [
         {
-          text: "Css3",
-          children: [
-            { text: "css文档", link: "/css/" },
-            { text: "css文档1", link: "/css/cssone" },
+          text: "vue教程",
+          collapsible: true,
+          collapsed: true,
+          items: [
+            {
+              text: "pina和vuex",
+              link: "/articles/pina和vuex",
+            },
           ],
         },
       ],
