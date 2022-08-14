@@ -5,17 +5,19 @@
 #app .VPHomeHero {
   margin-top: 0px;
   margin-bottom: 32px;
+  .main {
+    margin-top: 80px;
+  }
 }
 #app .VPNavBarTitle {
   .title {
-      color: #43bcff;
-      -webkit-background-clip: text;
+    background: linear-gradient(120deg,#43bcff 30%, #bd34fe);
+    -webkit-background-clip: text;
+    color: transparent;
   }
 }
 .VPNavBarMenuLink.active {
   color: #43bcff !important;
-  // border-bottom-color: var(vp-c-brand-lighter);
-  // color: var(vp-c-brand-lighter);
   font-weight: 600;
   height: 60px !important;
   border-bottom:2px solid #43bcff !important;
@@ -24,7 +26,7 @@
   color: #43bcff !important;
 }
 #app .VPHomeHero{
-  background: pink;
+  height:800px;
   background:url(../../../public/bg.jpg) center center fixed no-repeat;
   background-size: cover;
 }
