@@ -1,1 +1,0 @@
-import{_ as e,c as t,o as a,b as r}from"./app.50baa1c1.js";const u=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"react/index.md"}'),n={name:"react/index.md"},o=r("p",null,"'# react'",-1),s=[o];function c(d,_,i,p,l,m){return a(),t("div",null,s)}var x=e(n,[["render",c]]);export{u as __pageData,x as default};
