@@ -98,8 +98,10 @@ export default {
         },
       ],
     },
+    
   },
   markdown: {
     lineNumbers: true
-  }
-};
+  },
+  lastUpdated: true,
+}

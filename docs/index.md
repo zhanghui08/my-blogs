@@ -6,11 +6,11 @@ hero:
   text: 不要在该奋斗的年纪选择安逸...
   tagline: Believe in yourself, there's nothing you can't do！
   image:
-    src: /logo.png
+    # src: /logo.png
     alt: Mr.Zhang
   actions:
     - theme: brand
-      text: Go to
+      text: Go to Page
       link: /vue/vue3
     - theme: alt
       text: View on Gihub

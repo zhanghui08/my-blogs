@@ -20,5 +20,5 @@ git commit -m 'deploy'
 
 # 如果是部署到 https://<USERNAME>.github.io/<REPO>
 git push -f git@github.com:zhanghui08/my-blogs.git main:gh-pages
-# git push -u origin gh-pages
+# git push -u origin main:gh-pages
 
