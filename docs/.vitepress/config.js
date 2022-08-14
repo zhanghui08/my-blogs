@@ -19,7 +19,7 @@ export default {
           { text: "Css3", link: "/css/概况" },
         ],
       },
-      { text: "JavaScript", link: "/javascript/" },
+      { text: "JavaScript", link: "/javascript/常用" },
       {
         text: "Vue",
         items: [
@@ -39,7 +39,17 @@ export default {
       },
       { text: "React", link: "/react/" },
       { text: "微信小程序", link: "/wxwatch/" },
-      { text: "部署", link: "/deployment/" },
+      {
+        text: "部署/其他",
+        items: [
+          {
+            items: [
+              { text: "Git相关", link: "/deployment/git常用" },
+              { text: "其他记录", link: "/deployment/其他" },
+            ],
+          }
+        ]
+      }
       
     ],
     footer: {
@@ -82,10 +92,11 @@ export default {
         {
           text: "Vue2",
           collapsible: true,
-          collapsed: true,
+          // collapsed: true,
           items: [
-            { text: "基础", link: "/vue/vue2" },
-            { text: "入门", link: "/vue/vue2常用" },
+            { text: "Vue 基础", link: "/vue/vue2基础" },
+            { text: "Vue 开发须知道的技巧", link: "/vue/vue2" },
+            { text: "Vue 父子组件间的数据传递", link: "/vue/vue2常用" },
           ],
         },
         {
@@ -97,6 +108,43 @@ export default {
           ],
         },
       ],
+      "/deployment/": [
+        {
+          text: "Git-记录",
+          collapsible: true,
+          items: [
+            { text: "基础", link: "/deployment/git基础" },
+            { text: "常用", link: "/deployment/git常用" },
+          ],
+        },
+        {
+          text: "其他记录",
+          collapsible: true,
+          items: [
+            { text: "test01", link: "/deployment/其他" },
+          ],
+        },
+      ],
+      "/javascript/": [
+        {
+          text: "JavaScript-记录",
+          collapsible: true,
+          items: [
+            { text: "JavaScript常用", link: "/javascript/常用" },
+            { text: "JavaScript优化小技巧", link: "/javascript/优化" },
+            { text: "JavaScript高频手写题", link: "/javascript/高频手写题" },
+          ],
+        },
+        {
+          text: "ES6-记录",
+          collapsible: true,
+          items: [
+            { text: "基本语法", link: "/javascript/es6" },
+            { text: "ES6新特性", link: "/javascript/es6new" },
+            { text: "ES6其他", link: "/javascript/es6其他" },
+          ],
+        }
+      ]
     },
     
   },
