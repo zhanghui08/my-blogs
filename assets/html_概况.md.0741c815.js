@@ -1,0 +1,13 @@
+import{_ as s,c as a,o as e,a as n}from"./app.9848e2c1.js";const f=JSON.parse('{"title":"Description","description":"","frontmatter":{},"headers":[{"level":2,"title":"Description","slug":"description"},{"level":2,"title":"Software Architecture","slug":"software-architecture"},{"level":3,"title":"\u5F00\u53D1","slug":"\u5F00\u53D1"},{"level":2,"title":"\u53D1\u5E03","slug":"\u53D1\u5E03"}],"relativePath":"html/\u6982\u51B5.md","lastUpdated":1660443096000}'),t={name:"html/\u6982\u51B5.md"},l=n(`<p>&#39;# html-\u6982\u51B5&#39;</p><h2 id="description" tabindex="-1">Description <a class="header-anchor" href="#description" aria-hidden="true">#</a></h2><p>pc\u7AEFweb\u9879\u76EE</p><h2 id="software-architecture" tabindex="-1">Software Architecture <a class="header-anchor" href="#software-architecture" aria-hidden="true">#</a></h2><p>\u{1F389} \u57FA\u4E8E Vite 2.0 + Vue3.0 + Vue-Router 4.0 + Vuex 4.0 + element-plus \u7684\u540E\u53F0\u7BA1\u7406\u7CFB\u7EDF</p><h3 id="\u5F00\u53D1" tabindex="-1">\u5F00\u53D1 <a class="header-anchor" href="#\u5F00\u53D1" aria-hidden="true">#</a></h3><div class="language-bash"><span class="copy"></span><pre><code><span class="line"></span>
+<span class="line"><span style="color:#676E95;font-style:italic;"># \u5B89\u88C5\u4F9D\u8D56</span></span>
+<span class="line"><span style="color:#A6ACCD;">npm install</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#676E95;font-style:italic;"># \u5EFA\u8BAE\u4FEE\u6539\u4E3A taobao \u6E90\u89E3\u51B3\u4E0B\u8F7D\u901F\u5EA6\u6162\u7684\u95EE\u9898</span></span>
+<span class="line"><span style="color:#A6ACCD;">npm config </span><span style="color:#82AAFF;">set</span><span style="color:#A6ACCD;"> registry https://registry.npm.taobao.org/</span></span>
+<span class="line"><span style="color:#676E95;font-style:italic;">#\u52A0\u7B7E\u9700\u5F15\u5165jsrsasign</span></span>
+<span class="line"><span style="color:#A6ACCD;">npm install jsrsasign --save</span></span>
+<span class="line"><span style="color:#676E95;font-style:italic;"># \u542F\u52A8\u670D\u52A1</span></span>
+<span class="line"><span style="color:#A6ACCD;">npm run dev</span></span>
+<span class="line"></span></code></pre></div><h2 id="\u53D1\u5E03" tabindex="-1">\u53D1\u5E03 <a class="header-anchor" href="#\u53D1\u5E03" aria-hidden="true">#</a></h2><div class="language-bash"><span class="copy"></span><pre><code><span class="line"><span style="color:#676E95;font-style:italic;"># \u6784\u5EFA\u751F\u4EA7\u73AF\u5883</span></span>
+<span class="line"><span style="color:#A6ACCD;">npm run build</span></span>
+<span class="line"></span></code></pre></div>`,9),p=[l];function r(i,c,o,d,h,_){return e(),a("div",null,p)}var y=s(t,[["render",r]]);export{f as __pageData,y as default};
